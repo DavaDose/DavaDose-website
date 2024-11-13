@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border:0%;
+    
+}
+
+
+ body{
+    background-color: chocolate;
+    padding-top: 80px;
+    
+}
+
+/*navigation Bar*/
+
+.navdiv{ 
+    --my-var:rgb(224, 16, 82);
+    background-color:var(--my-var);
+    display:flex;
+    align-items: center; justify-content: space-between;    
+    position: fixed;
+    top: 0%;
+    width:100%;
+    height:80px;
+}
+
+ul{
+    background-color:var(--my-var);
+    list-style-type: none;   
+    
+}
+
+.logo{  
+    background-color:var(--my-var);
+    margin:0px;
+   
+}
+
+
+.logo a{
+    text-decoration: none;
+    padding:20px 10px;
+    color: antiquewhite;
+    font-size:xx-large; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.navbaroption {
+    display:flex; 
+}
+
+
+li a:hover{
+    background-color: rgb(159, 0, 50);    
+}
+
+
+li a{padding:30px 10px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(6, 5, 5);   
+}
+
+/*body*/
+.bodybox{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+}
+
+.box1{
+    background-color: rgb(230, 140, 75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+    padding: 20px;
+    margin-top:10px;
+    max-width: 30%;
+    min-height: 310px;
+    border-radius: 25px;
+}
+.inbox1{
+    background-color:rgb(24, 23, 21);
+    width: 120px;
+    height:120px;
+    border-radius: 100px;
+}
+
+.inbox2{
+    background-color:rgb(220, 184, 115);
+    
+    width:fit-content;
+    min-height:100px;
+    border-radius: 25px;
+    text-align: center;
+    color: black;
+    font-size:15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:20px;
+    overflow: auto;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: coral;
+    text-decoration: none;
+    
+
+}
